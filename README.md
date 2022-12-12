@@ -14,7 +14,7 @@ A boilerplate template for wallet dApp.
 - Clone the repository
 - Install dependencies `npm install`
 - Run `npm run dev` to start the development server
-- Open the app in a browser on `http://localhost:3000`
+- Open the app in a browser at `http://localhost:3000`
 
 <!-- ### Screenshots
 
