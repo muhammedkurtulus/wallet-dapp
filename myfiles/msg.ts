@@ -6,7 +6,8 @@ import { MessagesMessageType } from "primereact/messages";
       severity: "warn",
       summary: " ",
       detail: "Account Changed",
-      sticky: true,
+      sticky: false,
+      life: 30000,
     },
   ];
 
@@ -15,7 +16,8 @@ import { MessagesMessageType } from "primereact/messages";
       severity: "info",
       summary: " ",
       detail: "Chain Changed",
-      sticky: true,
+      sticky: false,
+      life: 30000,
     },
   ];
   
@@ -24,7 +26,8 @@ import { MessagesMessageType } from "primereact/messages";
       severity: "error",
       summary: " ",
       detail: "Error: Request rejected or insufficient funds",
-      sticky: true,
+      sticky: false,
+      life: 30000,
     },
   ];
   
